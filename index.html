@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="home">
+        <nav>
+            <div class="logo">My Name</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li class="dropdown">
+                    <a href="#portfolio">Portfolio <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#portfolio">Web Projects</a></li>
+                        <li><a href="#portfolio">App Projects</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <h1>My Name</h1>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a>
+                <a href="https://www.google.com/"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.quora.com/"><i class="fab fa-quora"></i></a>
+            </div>
+        </div>
+
+        <img src="image/profile-placeholder.svg" alt="Profile Photo" class="profile-img">
+    </header>
+
+    <section id="about" class="about-section">
+        <p class="about-text">
+            Lorem Ipsum is simply dummy text of the printing and <b>typesetting industry</b>. Lorem Ipsum has
+            been the industry's standard <b>dummy text ever</b> since the 1500s, when an unknown printer took
+            a galley of type and scrambled it to make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s <b>with the release of Letraset</b> sheets containing Lorem Ipsum.
+        </p>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2><i class="fas fa-user-tie"></i> SKILLS</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-fill cpp" style="width:90%;">C++</div>
+            </div>
+            <div class="skill">
+                <div class="skill-fill html" style="width:85%;">HTML</div>
+            </div>
+            <div class="skill">
+                <div class="skill-fill css" style="width:80%;">CSS</div>
+            </div>
+            <div class="skill">
+                <div class="skill-fill js" style="width:75%;">Javascript</div>
+            </div>
+            <div class="skill">
+                <div class="skill-fill node" style="width:70%;">NodeJs</div>
+            </div>
+            <div class="skill">
+                <div class="skill-fill mongo" style="width:65%;">MongoDB</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="timeline-section">
+        <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+        <div class="timeline">
+            <i class="fas fa-plane timeline-vehicle"></i>
+
+            <div class="timeline-item left">
+                <img src="image/ninjasicon.png" alt="Company Logo" class="timeline-icon">
+                <div class="timeline-text">
+                    <h3>Designation</h3>
+                    <h4>Company Name</h4>
+                    <span class="timeline-date">Month YYYY - Month YYYY</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <span class="timeline-dot"></span>
+            </div>
+
+            <div class="timeline-item right">
+                <img src="image/ninjasicon.png" alt="Company Logo" class="timeline-icon">
+                <div class="timeline-text">
+                    <h3>Designation</h3>
+                    <h4>Company Name</h4>
+                    <span class="timeline-date">Month YYYY - Month YYYY</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <span class="timeline-dot"></span>
+            </div>
+
+            <div class="timeline-item left">
+                <img src="image/ninjasicon.png" alt="Company Logo" class="timeline-icon">
+                <div class="timeline-text">
+                    <h3>Designation</h3>
+                    <h4>Company Name</h4>
+                    <span class="timeline-date">Month YYYY - Month YYYY</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <span class="timeline-dot"></span>
+            </div>
+
+            <div class="timeline-item right">
+                <img src="image/ninjasicon.png" alt="Company Logo" class="timeline-icon">
+                <div class="timeline-text">
+                    <h3>Designation</h3>
+                    <h4>Company Name</h4>
+                    <span class="timeline-date">Month YYYY - Month YYYY</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <span class="timeline-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="timeline-section alt-bg">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="timeline">
+            <i class="fas fa-car timeline-vehicle"></i>
+
+            <div class="timeline-item left">
+                <img src="image/iiitd_logo.png" alt="Institute Logo" class="timeline-icon">
+                <div class="timeline-text">
+                    <h3>Degree</h3>
+                    <h4>Institute Name</h4>
+                    <span class="timeline-date">Month YYYY - Month YYYY</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <span class="timeline-dot"></span>
+            </div>
+
+            <div class="timeline-item right">
+                <img src="image/iiitd_logo.png" alt="Institute Logo" class="timeline-icon">
+                <div class="timeline-text">
+                    <h3>Degree</h3>
+                    <h4>Institute Name</h4>
+                    <span class="timeline-date">Month YYYY - Month YYYY</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <span class="timeline-dot"></span>
+            </div>
+
+            <div class="timeline-item left">
+                <img src="image/iiitd_logo.png" alt="Institute Logo" class="timeline-icon">
+                <div class="timeline-text">
+                    <h3>Degree</h3>
+                    <h4>Institute Name</h4>
+                    <span class="timeline-date">Month YYYY - Month YYYY</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <span class="timeline-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2><i class="fas fa-th-large"></i> Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="image/codezen_2.png" alt="Project">
+                <div class="portfolio-overlay">
+                    <p>Write here basic details about the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/project_2.jpeg" alt="Project">
+                <div class="portfolio-overlay">
+                    <p>Write here basic details about the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/project.jpeg" alt="Project">
+                <div class="portfolio-overlay">
+                    <p>Write here basic details about the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/project_3.png" alt="Project">
+                <div class="portfolio-overlay">
+                    <p>Write here basic details about the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/codezen.png" alt="Project">
+                <div class="portfolio-overlay">
+                    <p>Write here basic details about the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/tree.jpeg" alt="Project">
+                <div class="portfolio-overlay">
+                    <p>Write here basic details about the project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2><i class="fas fa-address-card"></i> Contact</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Get In touch</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                <h3>My Address</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+                <p><i class="fas fa-mobile-alt"></i> 9999999999</p>
+                <p><i class="fas fa-envelope"></i> myemail@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a>
+            <a href="https://www.google.com/"><i class="fab fa-google-plus-g"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.quora.com/"><i class="fab fa-quora"></i></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
